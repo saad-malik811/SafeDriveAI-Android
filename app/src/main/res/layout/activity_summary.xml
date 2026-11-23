@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="28dp"
+    android:background="#0D1220">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MONITORING SUMMARY"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="35dp" />
+
+    <TextView
+        android:id="@+id/durationLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Duration: 00:00"
+        android:textColor="#B8C4D9"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="18dp" />
+
+    <TextView
+        android:id="@+id/drowsyEventsLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drowsy Events: 0"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="18dp" />
+
+    <TextView
+        android:id="@+id/yawnsLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yawns Detected: 0"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="18dp" />
+
+    <TextView
+        android:id="@+id/alarmEventsLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alarm Activations: 0"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="18dp" />
+
+    <TextView
+        android:id="@+id/highestRiskLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Highest Risk: SAFE"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="35dp" />
+
+    <Button
+        android:id="@+id/doneButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="DONE"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2196F3" />
+
+</LinearLayout>

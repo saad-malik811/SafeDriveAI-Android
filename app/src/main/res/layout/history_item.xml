@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="12dp"
+    android:background="#182238">
+
+    <TextView
+        android:id="@+id/dateLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/durationLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#B8C4D9"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/drowsyLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#B8C4D9"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/yawnLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#B8C4D9"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/alarmLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#B8C4D9"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/riskLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp" />
+
+</LinearLayout>

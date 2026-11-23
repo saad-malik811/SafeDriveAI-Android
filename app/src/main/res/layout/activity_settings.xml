@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#0D1220">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="30dp" />
+
+    <!-- Eye Sensitivity -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eye Sensitivity"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/eyeValueLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EAR Threshold: 0.20"
+        android:textColor="#B8C4D9"
+        android:textSize="15sp"
+        android:layout_marginTop="6dp" />
+
+    <SeekBar
+        android:id="@+id/eyeSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="30"
+        android:progress="10"
+        android:layout_marginBottom="28dp" />
+
+    <!-- Yawning Sensitivity -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yawning Sensitivity"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/yawnValueLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MAR Threshold: 0.40"
+        android:textColor="#B8C4D9"
+        android:textSize="15sp"
+        android:layout_marginTop="6dp" />
+
+    <SeekBar
+        android:id="@+id/yawnSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="60"
+        android:progress="10"
+        android:layout_marginBottom="28dp" />
+
+    <!-- Alarm Volume -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alarm Volume"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/volumeValueLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volume: 100%"
+        android:textColor="#B8C4D9"
+        android:textSize="15sp"
+        android:layout_marginTop="6dp" />
+
+    <SeekBar
+        android:id="@+id/volumeSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="100"
+        android:layout_marginBottom="35dp" />
+
+    <Button
+        android:id="@+id/saveSettingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="SAVE SETTINGS"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2196F3" />
+
+</LinearLayout>

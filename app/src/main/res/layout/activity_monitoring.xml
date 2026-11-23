@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#0D1220">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/driver_safety_monitor"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="12dp" />
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/cameraPreview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#171D2B" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:id="@+id/statusLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="AWAKE"
+            android:textColor="#4CAF50"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/yawnLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="NO YAWN"
+            android:textColor="#4CAF50"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Score: 0%"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="12dp" />
+
+    <ProgressBar
+        android:id="@+id/scoreBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:max="100"
+        android:progress="0"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/riskLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAFE"
+        android:textColor="#4CAF50"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/stopMonitoringButton"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="STOP MONITORING"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="4dp" />
+
+</LinearLayout>

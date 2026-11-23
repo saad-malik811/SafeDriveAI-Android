@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D1220">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🚗"
+            android:textSize="55sp"
+            android:gravity="center"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SafeDrive AI"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Smart Driver Monitoring System"
+            android:textColor="#B8C4D9"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="25dp" />
+
+
+        <!-- ABOUT PROJECT -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ABOUT THE PROJECT"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SafeDrive AI is a real-time driver monitoring system designed to help detect signs of driver drowsiness and provide an immediate audio warning."
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="22dp" />
+
+
+        <!-- HOW IT WORKS -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HOW IT WORKS"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The system uses the device camera and computer vision to analyze facial features in real time. Eye closure and yawning are monitored continuously. When the drowsiness score reaches the configured alarm level, an audio alarm is activated."
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="22dp" />
+
+
+        <!-- DETECTION FEATURES -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DETECTION FEATURES"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Eye-closure detection&#10;• Yawning detection&#10;• Drowsiness scoring&#10;• Real-time monitoring&#10;• Audio alarm alert&#10;• Monitoring history"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginBottom="22dp" />
+
+
+        <!-- TECHNOLOGY -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TECHNOLOGY"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin&#10;Android SDK&#10;MediaPipe Face Landmarker&#10;CameraX&#10;SQLite"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginBottom="22dp" />
+
+
+        <!-- MADE BY -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MADE BY"
+            android:textColor="#2196F3"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saad Malik"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BS Information Technology&#10;Final Year Project"
+            android:textColor="#B8C4D9"
+            android:textSize="14sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="25dp" />
+
+
+        <!-- VERSION -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Version 1.0"
+            android:textColor="#B8C4D9"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:layout_marginBottom="15dp" />
+
+
+        <Button
+            android:id="@+id/aboutBackButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="BACK"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:backgroundTint="#2196F3" />
+
+    </LinearLayout>
+
+</ScrollView>

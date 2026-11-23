@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SafeDriveAI</string>
+    <string name="driver_safety_monitor">Driver Safety Monitor</string>
+</resources>

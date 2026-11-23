@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="#0D1220">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🚗"
+        android:textSize="70sp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SafeDrive AI"
+        android:textColor="#FFFFFF"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Smart Driver Monitoring System"
+        android:textColor="#B8C4D9"
+        android:textSize="16sp"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btnStartMonitoring"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="START MONITORING"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2196F3"
+        android:layout_marginBottom="14dp" />
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="SETTINGS"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="14dp" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="ABOUT"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="14dp" />
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="HISTORY"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
